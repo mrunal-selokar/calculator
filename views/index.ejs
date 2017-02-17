@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+<html>
+<style type="text/css">
+  input[type=submit]{
+    background-color:#404040 ;
+    border-radius: 25px;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+</style>
+<body>
+<h1> Calculator </h1>
+  <form>
+      Number 1:<br>
+  <input type="text" name="no1" placeholder = "Number 1" value=""><br>
+      Number 2:<br>
+  <input type="text" name="no2" placeholder = "Number 2" value=""><br><br>
+      Result = <%- result %><br>
+  <input id = "op" type="submit" name = "op" value="add">
+  <input id = "op" type="submit" name = "op" value="subtract">
+  <input id = "op" type="submit" name = "op" value="multiply">
+  <input id = "op" type="submit" name = "op" value="divide">
+</form>
+</body>
+</html>
